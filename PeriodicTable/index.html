@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodic Table</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&family=Tinos:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white overflow-x-auto">
+  <h1 class="text-center mt-4 font-bold text-6xl" style="font-family: 'Tinos';">The Periodic Table</h1>
+  <p class="text-center text-xl font-medium mb-6" style="font-family: Open Sans;">Explore the potentials of elements..</p>
+
+  <div class="flex justify-center">
+    <input id="searchInput" class="text-gray-600 rounded-3xl  w-1/4 p-2 text-center mb-4" placeholder="Search by name, number...">
+    <button onclick="document.getElementById('filterModal').classList.remove('hidden')" class="p-4 text-center mx-2"><i class="fas fa-filter"></i></button>
+    <!-- Modal Backdrop -->
+<div id="filterModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/30 backdrop-blur-sm hidden">
+  <div class="relative bg-gray-800 p-6 rounded-lg shadow-lg w-96">
+    
+    <!-- Close button in top-right corner -->
+    <button class="absolute top-2 right-2 text-xl font-bold text-white hover:text-gray-300 p-1" onclick="document.getElementById('filterModal').classList.add('hidden')">×</button>
+
+    <!-- Category Filter Buttons -->
+    <div class="flex flex-wrap gap-2 mb-4 mt-6" id="categoryButtons">
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-gray-400/10 border-2 border-gray-400" data-category="">All</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-sky-400/10 border-2 border-sky-400" data-category="nonmetal">Nonmetal</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-pink-600/10 border-2 border-pink-600" data-category="noble-gas">Noble Gas</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-fuchsia-700/10 border-2 border-fuchsia-700" data-category="alkali-metal">Alkali Metal</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-orange-500/10 border-2 border-orange-500" data-category="alkaline-earth-metal">Alkaline Earth Metals</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-rose-500/10 border-2 border-rose-500" data-category="halogen">Halogen</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-amber-400/10 border-2 border-amber-400" data-category="transition-metal">Transition Metal</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-green-300/10 border-2 border-green-300" data-category="post-transition-metal">Post Transition Metals</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-blue-500/10 border-2 border-blue-500" data-category="metalloid">Metalloid</button>
+      <button class="px-3 py-1 bg-gray-700 text-white rounded-3xl hover:bg-teal-500/10 border-2 border-teal-500" data-category="rare-earth-metal">Rare Earth Metals</button>
+    </div>
+    
+  </div>
+</div>
+
+  </div>
+<div class="overflow-x-auto">
+  <div id="elementsGrid" class="grid [grid-template-columns:repeat(auto-fit,minmax(9rem,1fr))] gap-6 m-4"></div>
+</div>
+
+  <!-- Modal -->
+  <div id="modal" class="fixed inset-0 bg-black bg-opacity-70 hidden z-50 flex items-center justify-center">
+    <div class="bg-neutral-900 text-neutral-200 rounded-lg p-6 w-full max-w-md relative shadow-lg">
+      <button class="absolute top-2 right-3 text-xl font-bold text-white hover:text-gray-200" onclick="closeModal()">×</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+
+  <script>
+  const categoryStyles = {
+    "Non-metal": { border: "border-sky-400", bg: "bg-sky-400/10", text: "text-sky-400" },
+    "Noble gas": { border: "border-pink-600", bg: "bg-pink-600/10", text: "text-pink-600" },
+    "Alkali metal": { border: "border-fuchsia-700", bg: "bg-fuchsia-700/10", text: "text-fuchsia-700" },
+    "Alkaline Earth metal": { border: "border-orange-500", bg: "bg-orange-500/10", text: "text-orange-500" },
+    "Transition metal": { border: "border-amber-400", bg: "bg-amber-400/10", text: "text-amber-300" },
+    "Metalloid": { border: "border-blue-500", bg: "bg-blue-500/10", text: "text-blue-500" },
+    "Rare Earth metal": { border: "border-teal-500", bg: "bg-teal-500/10", text: "text-teal-300" },
+    "Halogen": { border: "border-rose-500", bg: "bg-rose-500/10", text: "text-rose-500" },
+    "Post Transition metal": { border: "border-green-300", bg: "bg-green-300/10", text: "text-green-300" }
+  };
+
+  const container = document.getElementById("elementsGrid");
+  const searchInput = document.getElementById("searchInput");
+  const categorySelect = document.getElementById("categorySelect");
+  const modal = document.getElementById("modal");
+  let allElements = [];
+
+  // Load elements from JSON file
+  fetch("elements.json")
+    .then(res => res.json())
+    .then(data => {
+      allElements = data;
+      renderElements(data);
+    })
+    .catch(err => {
+      console.error("Error loading element data:", err);
+    });
+
+  // Render elements
+  function renderElements(elements) {
+    container.innerHTML = "";
+    elements.forEach(el => {
+      const style = categoryStyles[el.category] || {
+        border: "border-gray-200",
+        bg: "bg-white/10",
+        text: "text-white"
+      };
+
+      const card = `
+          <div class="h-36 w-36 border-4 rounded-lg px-4 p-2 cursor-pointer ${style.border} ${style.bg}" onclick="openModal(${el.number})">
+            <div class="flex justify-between mb-2">
+              <h3 class="text-gray-200 text-xl font-semibold">${el.number}</h3>
+              <h2 class="text-gray-300 text-lg">${el.mass}</h2>
+            </div>
+            <h1 class="text-white text-4xl text-center font-bold" style="font-family: sans-serif ;">${el.symbol}</h1>
+            <p class="text-white text-center mt-4 text-sm tracking-wide" style="font-family: 'Tinos';">${el.name.toUpperCase()}</p>
+        </div>
+      `;
+      container.innerHTML += card;
+    });
+  }
+
+  // Search filter
+  searchInput.addEventListener("input", () => {
+    const keyword = searchInput.value.toLowerCase();
+    const filtered = allElements.filter(el =>
+      el.name.toLowerCase().includes(keyword) ||
+      el.symbol.toLowerCase().includes(keyword) ||
+      el.number.toString().includes(keyword)
+    );
+    renderElements(filtered);
+  });
+
+  // Add click listeners to category filter buttons
+document.querySelectorAll('#categoryButtons button').forEach(button => {
+  button.addEventListener('click', () => {
+    const category = button.getAttribute('data-category');
+    const filtered = category
+    ? allElements.filter(el => el.category.toLowerCase().replace(/[\s\-]/g, '') === category.replace(/[\s\-]/g, ''))
+    : allElements;
+    renderElements(filtered);
+    document.getElementById('filterModal').classList.add('hidden');
+  });
+});
+
+
+  // Open element modal
+  function openModal(number) {
+    const el = allElements.find(e => e.number === number);
+    const style = categoryStyles[el.category] || { text: "text-white" };
+    const content = `
+      <h2 class="text-2xl font-bold mb-2 text-center ${style.text}" style="font-family: 'Tinos';">${el.name} (${el.symbol})</h2>
+      <p><strong class="text-white">Atomic Mass:</strong> ${el.mass}</p>
+      <p><strong class="text-white">Category:</strong> ${el.category}</p>
+      <p><strong class="text-white">Block:</strong> ${el.block}</p>
+      <p><strong class="text-white">Appearance:</strong> ${el.appearance}</p>
+      <strong class="text-white">Uses:</strong>
+      <ul class="list-disc ml-6 mt-2">${el.uses.map(use => `<li>${use}</li>`).join("")}</ul>
+      <p class="mt-2 italic text-center ${style.text}">${el.highlight}</p>
+      <a href="${el.wiki}" target="_blank" class="text-indigo-600 block mt-4">Learn more...</a>
+    `;
+    document.getElementById("modalContent").innerHTML = content;
+    modal.classList.remove("hidden");
+  }
+
+  // Close modal
+  function closeModal() {
+    modal.classList.add("hidden");
+  }
+</script>
+
+</body>
+
+</html>

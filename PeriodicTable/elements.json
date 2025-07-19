@@ -1,0 +1,1465 @@
+[
+    {
+        "number": 1,
+        "symbol": "H",
+        "name": "Hydrogen",
+        "group": 1,
+        "period": 1,
+        "mass": "1.008",
+        "category": "Non-metal",
+        "block": "s",
+        "appearance": "Colorless gas",
+        "highlight": "Hydrogen is the most abundant element in the universe and fuels stars like our Sun.",
+        "uses": [
+            "Used as liquid hydrogen fuel in rockets",
+            "Powers hydrogen fuel cells for clean energy",
+            "Used in the industrial production of ammonia (Haber process)"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Hydrogen"
+    },
+    {
+        "number": 2,
+        "symbol": "He",
+        "name": "Helium",
+        "group": 18,
+        "period": 1,
+        "mass": "4.0026",
+        "category": "Noble gas",
+        "block": "s",
+        "appearance": "Colorless gas",
+        "highlight": "Helium is so light it can escape Earth's gravity — and makes your voice sound funny!",
+        "uses": [
+            "Used to inflate balloons and airships",
+            "Used in cryogenics, such as cooling MRI magnets",
+            "Acts as a shielding gas in welding processes"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Helium"
+    },
+    {
+        "number": 3,
+        "symbol": "Li",
+        "name": "Lithium",
+        "group": 1,
+        "period": 2,
+        "mass": "6.94",
+        "category": "Alkali metal",
+        "block": "s",
+        "appearance": "Silvery-white",
+        "highlight": "Lithium powers the rechargeable batteries in your phone and electric car.",
+        "uses": [
+            "Used in rechargeable batteries",
+            "Ingredient in mood-stabilizing medications",
+            "Used to create lightweight metal alloys"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Lithium"
+    },
+    {
+        "number": 4,
+        "symbol": "Be",
+        "name": "Beryllium",
+        "group": 2,
+        "period": 2,
+        "mass": "9.0122",
+        "category": "Alkaline Earth metal",
+        "block": "s",
+        "appearance": "Steel-gray",
+        "highlight": "Beryllium is ultra-light and stiff — perfect for satellites and space telescopes.",
+        "uses": [
+            "Used in aerospace materials for strength and heat resistance",
+            "Found in X-ray equipment components",
+            "Acts as a neutron moderator in nuclear reactors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Beryllium"
+    },
+    {
+        "number": 5,
+        "symbol": "B",
+        "name": "Boron",
+        "group": 13,
+        "period": 2,
+        "mass": "10.81",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Black-brown",
+        "highlight": "Boron boosts the strength of glass and is used in bulletproof windows.",
+        "uses": [
+            "Used to make borosilicate glass (e.g., Pyrex)",
+            "Ingredient in detergents and bleaching agents",
+            "Used in the manufacturing of semiconductors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Boron"
+    },
+    {
+        "number": 6,
+        "symbol": "C",
+        "name": "Carbon",
+        "group": 14,
+        "period": 2,
+        "mass": "12.011",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "Varies (diamond is clear, graphite is black)",
+        "highlight": "Carbon forms everything from diamonds to DNA — it's the element of life.",
+        "uses": [
+            "Essential element in organic chemistry and biological molecules",
+            "Found in fuels like coal, oil, and natural gas",
+            "Forms industrial materials such as graphite and diamonds"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Carbon"
+    },
+    {
+        "number": 7,
+        "symbol": "N",
+        "name": "Nitrogen",
+        "group": 15,
+        "period": 2,
+        "mass": "14.007",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "Colorless gas",
+        "highlight": "Nitrogen makes up 78% of Earth's atmosphere — yet we barely notice it!",
+        "uses": [
+            "Used in fertilizer production (ammonia)",
+            "Preserves biological samples using liquid nitrogen",
+            "Used to manufacture nitric acid"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Nitrogen"
+    },
+    {
+        "number": 8,
+        "symbol": "O",
+        "name": "Oxygen",
+        "group": 16,
+        "period": 2,
+        "mass": "15.999",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "Colorless gas",
+        "highlight": "Oxygen keeps us alive and makes fire possible — breathe it in!",
+        "uses": [
+            "Essential for breathing and respiration in living organisms",
+            "Used in steelmaking to remove impurities",
+            "Helps in treating water during purification"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Oxygen"
+    },
+    {
+        "number": 9,
+        "symbol": "F",
+        "name": "Fluorine",
+        "group": 17,
+        "period": 2,
+        "mass": "18.998",
+        "category": "Halogen",
+        "block": "p",
+        "appearance": "Pale yellow gas",
+        "highlight": "Fluorine is incredibly reactive and helps protect your teeth in toothpaste.",
+        "uses": [
+            "Active ingredient in toothpaste (fluoride)",
+            "Used for non-stick Teflon coatings in cookware",
+            "Involved in uranium processing for nuclear energy"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Fluorine"
+    },
+    {
+        "number": 10,
+        "symbol": "Ne",
+        "name": "Neon",
+        "group": 18,
+        "period": 2,
+        "mass": "20.180",
+        "category": "Noble gas",
+        "block": "p",
+        "appearance": "Colorless gas (glows reddish-orange in signs)",
+        "highlight": "Neon lights up city signs with a bright, glowing red-orange hue.",
+        "uses": [
+            "Creates bright lighting in neon signs",
+            "Used in high-voltage electrical indicators",
+            "Part of helium-neon laser technology"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Neon"
+    },
+        {
+        "number": 11,
+        "symbol": "Na",
+        "name": "Sodium",
+        "group": 1,
+        "period": 3,
+        "mass": "22.990",
+        "category": "Alkali metal",
+        "block": "s",
+        "appearance": "Silvery-white metallic",
+        "highlight": "Sodium is essential to life and found in common table salt.",
+        "uses": [
+            "Main ingredient in table salt (NaCl)",
+            "Used in sodium vapor lamps for street lighting",
+            "Transfers heat in certain nuclear reactors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sodium"
+    },
+    {
+        "number": 12,
+        "symbol": "Mg",
+        "name": "Magnesium",
+        "group": 2,
+        "period": 3,
+        "mass": "24.305",
+        "category": "Alkaline Earth metal",
+        "block": "s",
+        "appearance": "Shiny gray solid",
+        "highlight": "Magnesium burns with a bright white flame.",
+        "uses": [
+            "Used in fireworks and signal flares",
+            "Component in lightweight metal alloys for vehicles and aircraft",
+            "Found in dietary and nutritional supplements"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Magnesium"
+    },
+    {
+        "number": 13,
+        "symbol": "Al",
+        "name": "Aluminium",
+        "group": 13,
+        "period": 3,
+        "mass": "26.982",
+        "category": "Post Transition metal",
+        "block": "p",
+        "appearance": "Silvery gray metallic",
+        "highlight": "Aluminium is light, strong, and recyclable — widely used in transportation.",
+        "uses": [
+            "Used in the construction of aircraft and vehicles",
+            "Material for food packaging, such as foil and cans",
+            "Used in construction materials like windows and frames"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Aluminium"
+    },
+    {
+        "number": 14,
+        "symbol": "Si",
+        "name": "Silicon",
+        "group": 14,
+        "period": 3,
+        "mass": "28.085",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Dark gray with a bluish tinge",
+        "highlight": "Silicon is the backbone of modern electronics and computing.",
+        "uses": [
+            "Key material in semiconductors for electronic devices",
+            "Used in manufacturing solar panels",
+            "Ingredient in glass and concrete production"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Silicon"
+    },
+    {
+        "number": 15,
+        "symbol": "P",
+        "name": "Phosphorus",
+        "group": 15,
+        "period": 3,
+        "mass": "30.974",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "White, red, or black (allotropes)",
+        "highlight": "White phosphorus glows in the dark and ignites spontaneously in air.",
+        "uses": [
+            "Used in fertilizers to promote plant growth",
+            "Found in matches and fireworks",
+            "Used in pesticides and household detergents"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Phosphorus"
+    },
+    {
+        "number": 16,
+        "symbol": "S",
+        "name": "Sulfur",
+        "group": 16,
+        "period": 3,
+        "mass": "32.06",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "Bright yellow solid",
+        "highlight": "Sulfur is found near volcanoes and has a strong odor (like rotten eggs).",
+        "uses": [
+            "Used to produce sulfuric acid",
+            "Ingredient in fungicides and some fertilizers",
+            "Used in the vulcanization of rubber"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Sulfur"
+    },
+    {
+        "number": 17,
+        "symbol": "Cl",
+        "name": "Chlorine",
+        "group": 17,
+        "period": 3,
+        "mass": "35.45",
+        "category": "Halogen",
+        "block": "p",
+        "appearance": "Yellow-green gas",
+        "highlight": "Chlorine is used to disinfect water and in many cleaning products.",
+        "uses": [
+            "Used for water purification and disinfection",
+            "Essential in the production of PVC plastics",
+            "Active ingredient in household bleach"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Chlorine"
+    },
+    {
+        "number": 18,
+        "symbol": "Ar",
+        "name": "Argon",
+        "group": 18,
+        "period": 3,
+        "mass": "39.948",
+        "category": "Noble gas",
+        "block": "p",
+        "appearance": "Colorless gas",
+        "highlight": "Argon is commonly used in lightbulbs and welding to prevent oxidation.",
+        "uses": [
+            "Acts as an inert gas for welding applications",
+            "Used to fill incandescent and fluorescent light bulbs",
+            "Provides insulation in double-pane windows"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Argon"
+    },
+    {
+        "number": 19,
+        "symbol": "K",
+        "name": "Potassium",
+        "group": 1,
+        "period": 4,
+        "mass": "39.098",
+        "category": "Alkali metal",
+        "block": "s",
+        "appearance": "Silvery gray",
+        "highlight": "Potassium reacts violently with water and is essential in nerve function.",
+        "uses": [
+            "Used in fertilizers, especially potash",
+            "Essential dietary nutrient for human health",
+            "Used in gunpowder and explosive materials"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Potassium"
+    },
+    {
+        "number": 20,
+        "symbol": "Ca",
+        "name": "Calcium",
+        "group": 2,
+        "period": 4,
+        "mass": "40.078",
+        "category": "Alkaline Earth metal",
+        "block": "s",
+        "appearance": "Dull gray or silver",
+        "highlight": "Calcium is crucial for bones, teeth, and cell signaling.",
+        "uses": [
+            "Used in cement and concrete production",
+            "Source of calcium in dietary supplements",
+            "Used in steel refining processes"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Calcium"
+    },
+    {
+        "number": 21,
+        "symbol": "Sc",
+        "name": "Scandium",
+        "group": 3,
+        "period": 4,
+        "mass": "44.956",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-white",
+        "highlight": "Scandium is rare and helps strengthen aluminum in aerospace parts.",
+        "uses": [
+            "Used in aerospace alloys for strength and lightness",
+            "Component in high-intensity lamps",
+            "Used in sports equipment such as bicycles and baseball bats"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Scandium"
+    },
+    {
+        "number": 22,
+        "symbol": "Ti",
+        "name": "Titanium",
+        "group": 4,
+        "period": 4,
+        "mass": "47.867",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery gray-white",
+        "highlight": "Titanium is strong, light, and corrosion-resistant — used in jet engines and implants.",
+        "uses": [
+            "Used in aircraft and spacecraft construction",
+            "Material for medical implants due to biocompatibility",
+            "Used in sporting goods for strength and durability"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Titanium"
+    },
+    {
+        "number": 23,
+        "symbol": "V",
+        "name": "Vanadium",
+        "group": 5,
+        "period": 4,
+        "mass": "50.942",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-gray",
+        "highlight": "Vanadium boosts the strength of steel and powers large-scale batteries.",
+        "uses": [
+            "Added to steel alloys for increased strength and corrosion resistance",
+            "Used in vanadium redox flow batteries for energy storage",
+            "Used in manufacturing high-strength tools"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Vanadium"
+    },
+    {
+        "number": 24,
+        "symbol": "Cr",
+        "name": "Chromium",
+        "group": 6,
+        "period": 4,
+        "mass": "51.996",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery metallic",
+        "highlight": "Chromium gives chrome its shiny finish and protects metals from rust.",
+        "uses": [
+            "Main component of stainless steel",
+            "Used in chrome plating for corrosion resistance and shine",
+            "Found in pigments and dyes for vibrant colors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Chromium"
+    },
+    {
+        "number": 25,
+        "symbol": "Mn",
+        "name": "Manganese",
+        "group": 7,
+        "period": 4,
+        "mass": "54.938",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Gray-white",
+        "highlight": "Manganese is essential in making tough steel and glass with a purple tint.",
+        "uses": [
+            "Used in steel production to improve strength and hardness",
+            "Component in various types of batteries",
+            "Used to color and decolorize glass in manufacturing"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Manganese"
+    },
+    {
+        "number": 26,
+        "symbol": "Fe",
+        "name": "Iron",
+        "group": 8,
+        "period": 4,
+        "mass": "55.845",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Grayish metal",
+        "highlight": "Iron is magnetic, makes up Earth's core, and built the Industrial Age.",
+        "uses": [
+            "Essential in construction for producing steel",
+            "Used in tools and heavy machinery",
+            "Key element in hemoglobin for oxygen transport in blood"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Iron"
+    },
+    {
+        "number": 27,
+        "symbol": "Co",
+        "name": "Cobalt",
+        "group": 9,
+        "period": 4,
+        "mass": "58.933",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Bluish-gray",
+        "highlight": "Cobalt is key in rechargeable batteries and brilliant blue glass.",
+        "uses": [
+            "Used in lithium-ion batteries for portable electronics",
+            "Added to alloys for turbines and cutting tools",
+            "Used to make blue pigments in ceramics and glass"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Cobalt"
+    },
+    {
+        "number": 28,
+        "symbol": "Ni",
+        "name": "Nickel",
+        "group": 10,
+        "period": 4,
+        "mass": "58.693",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-white",
+        "highlight": "Nickel resists corrosion and gives coins their shine.",
+        "uses": [
+            "Used to mint coins in various currencies",
+            "Component of stainless steel for durability",
+            "Used in rechargeable battery technologies"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Nickel"
+    },
+    {
+        "number": 29,
+        "symbol": "Cu",
+        "name": "Copper",
+        "group": 11,
+        "period": 4,
+        "mass": "63.546",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Reddish-orange metallic",
+        "highlight": "Copper is a top-notch conductor — essential for electricity and plumbing.",
+        "uses": [
+            "Used in electrical wiring due to excellent conductivity",
+            "Material for plumbing systems",
+            "Used in coins and various electronic components"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Copper"
+    },
+    {
+        "number": 30,
+        "symbol": "Zn",
+        "name": "Zinc",
+        "group": 12,
+        "period": 4,
+        "mass": "65.38",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Bluish-silver",
+        "highlight": "Zinc prevents rust and is vital for your immune system.",
+        "uses": [
+            "Used to galvanize steel to prevent rusting",
+            "Component in brass and other metal alloys",
+            "Provided in dietary supplements as an essential trace element"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Zinc"
+    },
+    {
+        "number": 31,
+        "symbol": "Ga",
+        "name": "Gallium",
+        "group": 13,
+        "period": 4,
+        "mass": "69.723",
+        "category": "Post Transition metal",
+        "block": "p",
+        "appearance": "Silvery blue metal (liquid near room temperature)",
+        "highlight": "Gallium melts in your hand and is widely used in semiconductors.",
+        "uses": [
+            "Used in alloys with low melting points",
+            "Used in semiconductor components like GaAs and GaN",
+            "Found in high-temperature thermometers"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Gallium"
+    },
+    {
+        "number": 32,
+        "symbol": "Ge",
+        "name": "Germanium",
+        "group": 14,
+        "period": 4,
+        "mass": "72.630",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Grayish-white, lustrous metalloid",
+        "highlight": "Germanium is a key semiconductor material and infrared optics component.",
+        "uses": [
+            "Used in semiconductor devices",
+            "Essential for fiber-optic communication systems",
+            "Used in infrared optical equipment",
+            "Applied in solar cell technology"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Germanium"
+    },
+    {
+        "number": 33,
+        "symbol": "As",
+        "name": "Arsenic",
+        "group": 15,
+        "period": 4,
+        "mass": "74.922",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Metallic grey",
+        "highlight": "Arsenic is known for its toxicity and use in pesticides and semiconductors.",
+        "uses": [
+            "Used in wood preservatives to prevent decay",
+            "Ingredient in pesticides",
+            "Used for doping semiconductors like gallium arsenide (GaAs)"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Arsenic"
+    },
+    {
+        "number": 34,
+        "symbol": "Se",
+        "name": "Selenium",
+        "group": 16,
+        "period": 4,
+        "mass": "78.971",
+        "category": "Non-metal",
+        "block": "p",
+        "appearance": "Brick-red, black, or gray metallic forms",
+        "highlight": "Selenium is used in glassmaking and as a semiconductor in photocells.",
+        "uses": [
+            "Acts as a glass decolorizer and pigment",
+            "Used in photocells and solar cell production",
+            "Found in electronics as a surge protector"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Selenium"
+    },
+    {
+        "number": 35,
+        "symbol": "Br",
+        "name": "Bromine",
+        "group": 17,
+        "period": 4,
+        "mass": "79.904",
+        "category": "Halogen",
+        "block": "p",
+        "appearance": "Reddish-brown liquid",
+        "highlight": "Bromine is the only nonmetallic element that is liquid at room temperature.",
+        "uses": [
+            "Used in flame retardant materials",
+            "Component in drilling fluids for oil and gas exploration",
+            "Ingredient in certain pesticides"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Bromine"
+    },
+    {
+        "number": 36,
+        "symbol": "Kr",
+        "name": "Krypton",
+        "group": 18,
+        "period": 4,
+        "mass": "83.798",
+        "category": "Noble gas",
+        "block": "p",
+        "appearance": "Colorless gas",
+        "highlight": "Krypton is used in high-performance lighting and photography flashes.",
+        "uses": [
+            "Used in high-intensity lamps and camera flash photography",
+            "Fills insulating windows for energy efficiency (krypton gas)"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Krypton"
+    },
+    {
+        "number": 37,
+        "symbol": "Rb",
+        "name": "Rubidium",
+        "group": 1,
+        "period": 5,
+        "mass": "85.468",
+        "category": "Alkali metal",
+        "block": "s",
+        "appearance": "Silvery-white metal",
+        "highlight": "Rubidium is highly reactive and used in specialized vacuum tubes.",
+        "uses": [
+            "Used in vacuum tubes for electronics",
+            "Used in atomic physics research",
+            "Found in photoelectric cells"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rubidium"
+    },
+    {
+        "number": 38,
+        "symbol": "Sr",
+        "name": "Strontium",
+        "group": 2,
+        "period": 5,
+        "mass": "87.62",
+        "category": "Alkaline Earth metal",
+        "block": "s",
+        "appearance": "Silver-yellow soft metal",
+        "highlight": "Strontium is used to produce red colors in fireworks.",
+        "uses": [
+            "Creates red color in fireworks",
+            "Used in ferrite magnets for electronics",
+            "Strontium compounds used in electronic components"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Strontium"
+    },
+    {
+        "number": 39,
+        "symbol": "Y",
+        "name": "Yttrium",
+        "group": 3,
+        "period": 5,
+        "mass": "88.906",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-metallic",
+        "highlight": "Yttrium is a rare-earth metal used in LEDs and lasers.",
+        "uses": [
+            "Used in LED phosphors for display lighting",
+            "Component in lasers for medical and industrial uses",
+            "Found in superconducting materials",
+            "Used as electrodes in various electrical applications"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Yttrium"
+    },
+    {
+        "number": 40,
+        "symbol": "Zr",
+        "name": "Zirconium",
+        "group": 4,
+        "period": 5,
+        "mass": "91.224",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery white",
+        "highlight": "Zirconium is highly resistant to corrosion and used in nuclear reactors.",
+        "uses": [
+            "Used in nuclear reactor cladding",
+            "Found in surgical instruments",
+            "Used in making ceramics",
+            "Used in corrosion-resistant alloys"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Zirconium"
+    },
+    {
+        "number": 41,
+        "symbol": "Nb",
+        "name": "Niobium",
+        "group": 5,
+        "period": 5,
+        "mass": "92.906",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Gray metallic",
+        "highlight": "Niobium is known for its superconducting properties and strength in alloys.",
+        "uses": [
+            "Used in superconducting magnets",
+            "Alloyed with steel to improve strength",
+            "Used in aerospace components",
+            "Used in MRI scanners"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Niobium"
+    },
+    {
+        "number": 42,
+        "symbol": "Mo",
+        "name": "Molybdenum",
+        "group": 6,
+        "period": 5,
+        "mass": "95.95",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Gray metallic",
+        "highlight": "Molybdenum withstands high temperatures and is used in strong alloys.",
+        "uses": [
+            "Used in steel alloys for strength",
+            "Found in high-temperature turbines",
+            "Used in electronics",
+            "Essential trace element in biology"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Molybdenum"
+    },
+    {
+        "number": 43,
+        "symbol": "Tc",
+        "name": "Technetium",
+        "group": 7,
+        "period": 5,
+        "mass": "98",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery gray",
+        "highlight": "Technetium is the lightest element with only radioactive isotopes, used in medicine.",
+        "uses": [
+            "Used in nuclear medicine imaging",
+            "Tracer for diagnostic scans",
+            "Used in corrosion protection for steel",
+            "Studied in radioactive decay experiments"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Technetium"
+    },
+    {
+        "number": 44,
+        "symbol": "Ru",
+        "name": "Ruthenium",
+        "group": 8,
+        "period": 5,
+        "mass": "101.07",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery white metallic",
+        "highlight": "Ruthenium enhances hardness in platinum and palladium alloys.",
+        "uses": [
+            "Used in electrical contacts",
+            "Enhances corrosion resistance in titanium",
+            "Catalyst in chemical reactions",
+            "Used in solar cells"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Ruthenium"
+    },
+    {
+        "number": 45,
+        "symbol": "Rh",
+        "name": "Rhodium",
+        "group": 9,
+        "period": 5,
+        "mass": "102.91",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery white reflective",
+        "highlight": "Rhodium is highly reflective and used in catalytic converters.",
+        "uses": [
+            "Used in catalytic converters in cars",
+            "Electroplating for jewelry",
+            "Reflective coatings in optics",
+            "Used in high-temperature thermocouples"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rhodium"
+    },
+    {
+        "number": 46,
+        "symbol": "Pd",
+        "name": "Palladium",
+        "group": 10,
+        "period": 5,
+        "mass": "106.42",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery white",
+        "highlight": "Palladium is critical in catalytic converters and hydrogen storage.",
+        "uses": [
+            "Used in catalytic converters",
+            "Found in electronics and dentistry",
+            "Used in hydrogen storage and purification",
+            "Component in jewelry"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Palladium"
+    },
+    {
+        "number": 47,
+        "symbol": "Ag",
+        "name": "Silver",
+        "group": 11,
+        "period": 5,
+        "mass": "107.87",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Shiny grayish-white",
+        "highlight": "Silver has the highest electrical conductivity of all elements.",
+        "uses": [
+            "Used in electrical contacts and conductors",
+            "Component in jewelry and coins",
+            "Used in photography (silver halides)",
+            "Antibacterial applications"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Silver"
+    },
+    {
+        "number": 48,
+        "symbol": "Cd",
+        "name": "Cadmium",
+        "group": 12,
+        "period": 5,
+        "mass": "112.41",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery bluish-gray",
+        "highlight": "Cadmium is used in batteries and is toxic in large amounts.",
+        "uses": [
+            "Used in rechargeable nickel-cadmium batteries",
+            "Component in pigments and coatings",
+            "Used in solar panels",
+            "Neutron absorber in nuclear reactors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Cadmium"
+    },
+    {
+        "number": 49,
+        "symbol": "In",
+        "name": "Indium",
+        "group": 13,
+        "period": 5,
+        "mass": "114.82",
+        "category": "Post Transition metal",
+        "block": "p",
+        "appearance": "Silvery lustrous gray",
+        "highlight": "Indium is soft and used in touchscreens and solders.",
+        "uses": [
+            "Used in indium tin oxide for touchscreens",
+            "Component in low-melting-point alloys",
+            "Used in semiconductors",
+            "Used in solar panels"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Indium"
+    },
+    {
+        "number": 50,
+        "symbol": "Sn",
+        "name": "Tin",
+        "group": 14,
+        "period": 5,
+        "mass": "118.71",
+        "category": "Post Transition metal",
+        "block": "p",
+        "appearance": "Silvery-white",
+        "highlight": "Tin is corrosion-resistant and widely used in solder and coatings.",
+        "uses": [
+            "Used in solder for electronics",
+            "Component in tin plating for food cans",
+            "Used in bronze alloys",
+            "Found in some glass coatings"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Tin"
+    },
+    {
+        "number": 51,
+        "symbol": "Sb",
+        "name": "Antimony",
+        "group": 15,
+        "period": 5,
+        "mass": "121.76",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Silvery lustrous gray",
+        "highlight": "Antimony is used in flame retardants and alloys to improve hardness.",
+        "uses": [
+            "Used in flame-retardant materials",
+            "Component in lead-acid battery plates",
+            "Alloyed with lead to increase hardness",
+            "Used in semiconductors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Antimony"
+    },
+    {
+        "number": 52,
+        "symbol": "Te",
+        "name": "Tellurium",
+        "group": 16,
+        "period": 5,
+        "mass": "127.60",
+        "category": "Metalloid",
+        "block": "p",
+        "appearance": "Silvery-white",
+        "highlight": "Tellurium is used in solar cells and thermoelectric devices.",
+        "uses": [
+            "Used in thermoelectric materials",
+            "Component in solar panels",
+            "Alloyed with steel and copper for machining",
+            "Used in rewritable optical discs"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Tellurium"
+    },
+    {
+        "number": 53,
+        "symbol": "I",
+        "name": "Iodine",
+        "group": 17,
+        "period": 5,
+        "mass": "126.90",
+        "category": "Halogen",
+        "block": "p",
+        "appearance": "Shiny dark gray/purple-black solid",
+        "highlight": "Iodine is essential for thyroid function and used in disinfectants.",
+        "uses": [
+            "Used in antiseptics and disinfectants",
+            "Essential nutrient in the human diet",
+            "Used in X-ray contrast media",
+            "Found in halogen lamps"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Iodine"
+    },
+    {
+        "number": 54,
+        "symbol": "Xe",
+        "name": "Xenon",
+        "group": 18,
+        "period": 5,
+        "mass": "131.29",
+        "category": "Noble gas",
+        "block": "p",
+        "appearance": "Colorless gas",
+        "highlight": "Xenon is used in high-intensity lamps and general anesthesia.",
+        "uses": [
+            "Used in high-intensity arc lamps",
+            "Used in ion propulsion systems for spacecraft",
+            "Used as a general anesthetic",
+            "Used in flash lamps for photography"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Xenon"
+    },
+    {
+        "number": 55,
+        "symbol": "Cs",
+        "name": "Cesium",
+        "group": 1,
+        "period": 6,
+        "mass": "132.91",
+        "category": "Alkali metal",
+        "block": "s",
+        "appearance": "Silvery-gold",
+        "highlight": "Cesium is highly reactive and used in atomic clocks.",
+        "uses": [
+            "Used in atomic clocks",
+            "Ion propulsion in space applications",
+            "Used in oil drilling fluids",
+            "Component in photoelectric cells"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Cesium"
+    },
+    {
+        "number": 56,
+        "symbol": "Ba",
+        "name": "Barium",
+        "group": 2,
+        "period": 6,
+        "mass": "137.33",
+        "category": "Alkaline Earth metal",
+        "block": "s",
+        "appearance": "Silvery-white",
+        "highlight": "Barium compounds are used in medical imaging and fireworks.",
+        "uses": [
+            "Used in barium swallow X-rays",
+            "Component in fireworks (green color)",
+            "Used in drilling muds for oil wells",
+            "Used in vacuum tubes"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Barium"
+    },
+    {
+        "number": 57,
+        "symbol": "La",
+        "name": "Lanthanum",
+        "group": 3,
+        "period": 6,
+        "mass": "138.91",
+        "category": "Transition metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Lanthanum is used in camera lenses and hybrid car batteries.",
+        "uses": [
+            "Used in camera and telescope lenses",
+            "Component in nickel-metal hydride batteries",
+            "Used in catalyst for petroleum refining",
+            "Used in optical glasses"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Lanthanum"
+    },
+    {
+        "number": 58,
+        "symbol": "Ce",
+        "name": "Cerium",
+        "group": 4,
+        "period": 6,
+        "mass": "140.12",
+        "category": "Transition metal",
+        "block": "f",
+        "appearance": "Silvery gray",
+        "highlight": "Cerium is the most abundant rare-earth element and used in catalytic converters.",
+        "uses": [
+            "Used in catalytic converters",
+            "Component in glass polishing powders",
+            "Used in flints for lighters",
+            "Used in self-cleaning ovens"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Cerium"
+    },
+    {
+        "number": 59,
+        "symbol": "Pr",
+        "name": "Praseodymium",
+        "group": 5,
+        "period": 6,
+        "mass": "140.91",
+        "category": "Transition metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Praseodymium is used in magnets, glass coloring, and aircraft engines.",
+        "uses": [
+            "Used in high-strength permanent magnets",
+            "Component in aircraft engine alloys",
+            "Used to color glass and ceramics",
+            "Used in carbon arc lighting"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Praseodymium"
+    },
+    {
+        "number": 60,
+        "symbol": "Nd",
+        "name": "Neodymium",
+        "group": 6,
+        "period": 6,
+        "mass": "144.24",
+        "category": "Transition metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Neodymium is best known for making powerful magnets used in electronics.",
+        "uses": [
+            "Used in neodymium magnets",
+            "Component in headphones and microphones",
+            "Used in lasers and optical devices",
+            "Used to tint glass and sunglasses"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Neodymium"
+    },
+    {
+        "number": 61,
+        "symbol": "Pm",
+        "name": "Promethium",
+        "group": 6,
+        "period": 6,
+        "mass": "145",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Metallic, silvery",
+        "highlight": "Promethium is a radioactive rare earth metal with no stable isotopes.",
+        "uses": [
+        "Used in luminous paint",
+        "Used in nuclear batteries",
+        "Research applications"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Promethium"
+    },
+    {
+        "number": 62,
+        "symbol": "Sm",
+        "name": "Samarium",
+        "group": 6,
+        "period": 6,
+        "mass": "150.36",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Samarium is used in powerful magnets and nuclear reactors.",
+        "uses": [
+        "Used in samarium–cobalt magnets",
+        "Neutron absorber in nuclear reactors",
+        "Lasers and infrared optics"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Samarium"
+    },
+    {
+        "number": 63,
+        "symbol": "Eu",
+        "name": "Europium",
+        "group": 6,
+        "period": 6,
+        "mass": "151.96",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Europium is known for its role in red phosphors in color TV and LED displays.",
+        "uses": [
+        "Phosphorescent materials",
+        "LEDs and fluorescent lighting",
+        "Euro banknote anti-forgery ink"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Europium"
+    },
+    {
+        "number": 64,
+        "symbol": "Gd",
+        "name": "Gadolinium",
+        "group": 6,
+        "period": 6,
+        "mass": "157.25",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Gadolinium is highly magnetic and used in MRI contrast agents.",
+        "uses": [
+        "MRI contrast agents",
+        "Neutron radiography",
+        "Manufacture of data storage disks"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Gadolinium"
+    },
+    {
+        "number": 65,
+        "symbol": "Tb",
+        "name": "Terbium",
+        "group": 6,
+        "period": 6,
+        "mass": "158.93",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Terbium is used in solid-state devices and green phosphors.",
+        "uses": [
+        "Green phosphors in displays",
+        "Alloys for electronics",
+        "Solid-state devices"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Terbium"
+    },
+    {
+        "number": 66,
+        "symbol": "Dy",
+        "name": "Dysprosium",
+        "group": 6,
+        "period": 6,
+        "mass": "162.50",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Dysprosium is used in magnets and nuclear reactor control rods.",
+        "uses": [
+        "Used in neodymium-iron-boron magnets",
+        "Nuclear reactor control rods",
+        "Laser materials"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Dysprosium"
+    },
+    {
+        "number": 67,
+        "symbol": "Ho",
+        "name": "Holmium",
+        "group": 6,
+        "period": 6,
+        "mass": "164.93",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery",
+        "highlight": "Holmium has the highest magnetic strength of any element.",
+        "uses": [
+        "Used in magnetic alloys",
+        "Nuclear reactors",
+        "Medical lasers"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Holmium"
+    },
+    {
+        "number": 68,
+        "symbol": "Er",
+        "name": "Erbium",
+        "group": 6,
+        "period": 6,
+        "mass": "167.26",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Erbium is commonly used in fiber-optic communication systems.",
+        "uses": [
+        "Fiber-optic amplifiers",
+        "Laser materials",
+        "Nuclear technology"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Erbium"
+    },
+    {
+        "number": 69,
+        "symbol": "Tm",
+        "name": "Thulium",
+        "group": 6,
+        "period": 6,
+        "mass": "168.93",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-gray",
+        "highlight": "Thulium is the second least abundant lanthanide and used in X-ray machines.",
+        "uses": [
+        "Portable X-ray devices",
+        "Laser systems",
+        "Nuclear reactors"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Thulium"
+    },
+    {
+        "number": 70,
+        "symbol": "Yb",
+        "name": "Ytterbium",
+        "group": 6,
+        "period": 6,
+        "mass": "173.05",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery",
+        "highlight": "Ytterbium is used in atomic clocks and infrared lasers.",
+        "uses": [
+        "Atomic clocks",
+        "Infrared lasers",
+        "Improving stainless steel"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Ytterbium"
+    },
+    {
+        "number": 71,
+        "symbol": "Lu",
+        "name": "Lutetium",
+        "group": 6,
+        "period": 6,
+        "mass": "174.97",
+        "category": "Rare Earth metal",
+        "block": "f",
+        "appearance": "Silvery-white",
+        "highlight": "Lutetium is the last element in the lanthanide series, used in catalysts and PET scanners.",
+        "uses": [
+        "Catalysts in petroleum refining",
+        "Positron emission tomography (PET)",
+        "Phosphor applications"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Lutetium"
+    },
+    {
+        "number": 72,
+        "symbol": "Hf",
+        "name": "Hafnium",
+        "group": 4,
+        "period": 6,
+        "mass": "178.49",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery gray",
+        "highlight": "Hafnium is used in control rods due to its neutron-absorbing properties.",
+        "uses": [
+        "Nuclear reactor control rods",
+        "Semiconductors",
+        "Gas turbine engines"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Hafnium"
+    },
+    {
+        "number": 73,
+        "symbol": "Ta",
+        "name": "Tantalum",
+        "group": 5,
+        "period": 6,
+        "mass": "180.95",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Gray-blue",
+        "highlight": "Tantalum is corrosion-resistant and widely used in electronics.",
+        "uses": [
+        "Capacitors and resistors in electronics",
+        "Surgical implants",
+        "Corrosion-resistant equipment"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Tantalum"
+    },
+    {
+        "number": 74,
+        "symbol": "W",
+        "name": "Tungsten",
+        "group": 6,
+        "period": 6,
+        "mass": "183.84",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Steel gray",
+        "highlight": "Tungsten has the highest melting point of all metals.",
+        "uses": [
+        "Filaments in light bulbs",
+        "Cutting tools",
+        "Radiation shielding"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Tungsten"
+    },
+    {
+        "number": 75,
+        "symbol": "Re",
+        "name": "Rhenium",
+        "group": 7,
+        "period": 6,
+        "mass": "186.21",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-gray",
+        "highlight": "Rhenium is rare and used in high-temperature superalloys.",
+        "uses": [
+        "Jet engine components",
+        "Catalysts in petroleum refining",
+        "Electrical contacts"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Rhenium"
+    },
+    {
+        "number": 76,
+        "symbol": "Os",
+        "name": "Osmium",
+        "group": 8,
+        "period": 6,
+        "mass": "190.23",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Bluish-white",
+        "highlight": "Osmium is the densest naturally occurring element.",
+        "uses": [
+        "Fountain pen nibs",
+        "Electrical contacts",
+        "Alloys for wear resistance"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Osmium"
+    },
+    {
+        "number": 77,
+        "symbol": "Ir",
+        "name": "Iridium",
+        "group": 9,
+        "period": 6,
+        "mass": "192.22",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-white",
+        "highlight": "Iridium is extremely corrosion-resistant and used in spark plugs and crucibles.",
+        "uses": [
+        "Spark plugs",
+        "Crucibles",
+        "Pen tips and electrical contacts"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Iridium"
+    },
+    {
+        "number": 78,
+        "symbol": "Pt",
+        "name": "Platinum",
+        "group": 10,
+        "period": 6,
+        "mass": "195.08",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Silvery-white",
+        "highlight": "Platinum is valuable, dense, and used extensively in catalysts and jewelry.",
+        "uses": [
+        "Catalytic converters",
+        "Jewelry",
+        "Laboratory equipment"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Platinum"
+    },
+    {
+        "number": 79,
+        "symbol": "Au",
+        "name": "Gold",
+        "group": 11,
+        "period": 6,
+        "mass": "196.97",
+        "category": "Transition metal",
+        "block": "d",
+        "appearance": "Metallic yellow",
+        "highlight": "Gold is highly conductive and corrosion-resistant, used in electronics and finance.",
+        "uses": [
+        "Jewelry and coins",
+        "Electronics",
+        "Dental applications"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Gold"
+    },
+    {
+        "number": 80,
+        "symbol": "Hg",
+        "name": "Mercury",
+        "group": 12,
+        "period": 6,
+        "mass": "200.59",
+        "category": "Post Transition metal",
+        "block": "d",
+        "appearance": "Silvery liquid",
+        "highlight": "Mercury is the only metal that is liquid at room temperature.",
+        "uses": [
+        "Thermometers",
+        "Barometers",
+        "Electrical switches"
+        ],
+        "wiki": "https://en.wikipedia.org/wiki/Mercury_(element)"
+    }
+
+]
